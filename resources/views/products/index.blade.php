@@ -3,6 +3,8 @@
 @section('content')
 <div class="row justify-content-center">
     <div class="col-12 col-xl-10">
+        <!-- Success Message -->
+        @include('partials.scs')
         <div class="d-flex justify-content-between align-items-center mb-4 pb-3 border-bottom">
             <div>
                 <h2 class="fw-bold mb-2">Products</h2>
@@ -37,7 +39,8 @@
                     <form action="{{ route('products.destroy', $product->id) }}" method="POST" class="m-0">
                         @csrf
                         @method('DELETE')
-                        <button type="submit" class="btn btn-danger me-2" onclick="return confirm('Are you sure you want to delete this product?')">Delete</button>
+                        <button type="submit" class="btn btn-danger me-2"
+                            onclick="return confirm('Are you sure you want to delete this product?')">Delete</button>
                     </form>
                 </td>
             </tr>
@@ -47,10 +50,9 @@
             </tr>
             @endforelse
         </tbody>
-
-        <div class="d-flex justify-content-end mt-4">
-            {{ $products->links() }}
-        </div>
     </table>
+    <div class="d-flex justify-content-end mt-4">
+        {{ $products->links() }}
+    </div>
 </div>
 @endsection

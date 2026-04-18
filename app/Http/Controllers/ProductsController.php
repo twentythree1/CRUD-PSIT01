@@ -31,7 +31,7 @@ class ProductsController extends Controller
     public function store(StoreProductsRequest $request)
     {
         Products::create($request->validated());
-        return redirect()->back()->with('success', 'Product created successfully!');
+        return redirect()->route('products.index')->with('success', 'Product created successfully!');
     }
 
     /**
