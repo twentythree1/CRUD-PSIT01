@@ -7,16 +7,16 @@
         @include('partials.scs')
         <div class="d-flex justify-content-between align-items-center mb-4 pb-3 border-bottom">
             <div>
-                <h2 class="fw-bold mb-2">Products</h2>
+                <h2 class="fw-bold mb-2">products</h2>
                 <p class="text-muted mb-0">Manage your products here.</p>
             </div>
-            <a href="{{ route('products.create') }}" class="btn btn-info">
+            <a href="{{ route('products.create') }}" class="btn btn-success">
                 Add New Product
             </a>
         </div>
     </div>
 
-    <table class="table table-striped table-hover table-bordered border border-info-subtle">
+    <table class="table table-striped table-hover table-bordered border border-dark-subtle">
         <thead>
             <tr>
                 <th scope="col">#</th>

@@ -49,7 +49,7 @@
                             @enderror
                         </div>
                         <div class="d-flex gap-2 justify-content-end">
-                            <button type="submit" class="btn btn-outline-primary">Add Product</button>
+                            <button type="submit" class="btn btn-success">Add Product</button>
                             <button type="button" class="btn btn-danger" onclick="window.history.back()">Cancel</button>
                         </div>
                     </form>

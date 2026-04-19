@@ -8,7 +8,7 @@
                 <div>
                     <h2 class="text-dark-emphasis m-0 mb-1">View Product</h2>
                 </div>
-                <a href="{{ route('products.index') }}" class="btn btn-warning">
+                <a href="{{ route('products.index') }}" class="btn btn-primary">
                     Back to Products
                 </a>
             </div>
