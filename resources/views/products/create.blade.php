@@ -48,8 +48,9 @@
                             </span>
                             @enderror
                         </div>
-                        <div class="d-flex" gap-2>
-                            <button type="submit" class="btn btn-primary">Add Product</button>
+                        <div class="d-flex gap-2 justify-content-end">
+                            <button type="submit" class="btn btn-outline-primary">Add Product</button>
+                            <button type="button" class="btn btn-danger" onclick="window.history.back()">Cancel</button>
                         </div>
                     </form>
                 </div>
