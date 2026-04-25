@@ -8,7 +8,8 @@ Route::get('/', function () {
 
 use App\Http\Controllers\ProductsController;
 
-Route::get('/products', [ProductsController::class, 'index']);
-
-
 Route::resource('products', ProductsController::class);
+
+Route::get('/about', function () {
+    return view('about');
+})->name('about');

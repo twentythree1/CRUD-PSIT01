@@ -30,9 +30,8 @@
                         <div class="mb-4">
                             <label for="description" class="form-label">Product Description</label>
                             <textarea class="form-control @error('description') is-invalid @enderror" id="description"
-                                rows="8" placeholder="Enter product description..." name="description">
-                                {{ old('description', $product->description) }}
-                            </textarea>
+                                rows="8" placeholder="Enter product description..."
+                                name="description">{{ old('description', $product->description) }}</textarea>
                             @error('description')
                             <span class="invalid-feedback">
                                 {{ $message }}
@@ -50,8 +49,8 @@
                             @enderror
                         </div>
                         <div class="d-flex gap-2 justify-content-end">
-                            <button type="submit" class="btn btn-outline-primary">Save Changes</button>
                             <button type="button" class="btn btn-danger" onclick="window.history.back()">Cancel</button>
+                            <button type="submit" class="btn btn-success">Save Changes</button>
                         </div>
                         
                     </form>
