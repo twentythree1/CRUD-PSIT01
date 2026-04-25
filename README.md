@@ -1,6 +1,6 @@
 PRODUCT HUB
 
-PRODUCT HUB is a functional web application built with the Laravel Framework. This project demonstrates the implementation of the MVC (Model-View-Controller) architecture and provides full CRUD (Create, Read, Update, and Delete) functionality for managing a product inventory.
+PRODUCT HUB is a functional web application about laptops that's built with the Laravel Framework. This project demonstrates the implementation of the MVC (Model-View-Controller) architecture and provides full CRUD (Create, Read, Update, and Delete) functionality for managing a product inventory.
 
 TECH STACK:
 - Framework: Laravel 10.x / 11.x
