@@ -63,7 +63,7 @@
                 </div>
             </div>
             <div class="member-card">
-                <div class="member-avatar">JM</div>
+                <div class="member-avatar"><img src="{{ asset('assets/michael.jpg') }}"></div>
                 <div class="member-name">John Michael Tombocon</div>
                 <div class="member-role">
                     <span class="material-icons-round role-icon">storage</span>
